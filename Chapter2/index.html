@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+
+    <style>
+        .red {
+            color: red;
+        }
+
+        .bg-green {
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p id="text"></p>
+
+    <span class="text-2">1</span>
+    <span class="text-2">2</span>
+    <span class="text-2">3</span>
+    <span class="text-2">4</span>
+
+
+    <button onclick="changeText()">Change Text</button>
+
+    <button onclick="removeText()">Remove Text</button>
+
+
+    <script>
+        let text = document.getElementById('text');
+
+        text.innerText = 'salam'
+
+        let text2 = document.querySelectorAll('span');
+        text2[0].classList.add('red');
+        text2[1].classList.add('bg-green');
+
+        function changeText() {
+            text.innerText = 'hello'
+        }
+
+        function removeText() {
+            text.remove();
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+</head>
+
+<body>
+
+    <span id="text">Salam</span>
+
+    <input type="text" id="input">
+
+    <script>
+        let text = document.getElementById('text');
+
+        text.addEventListener('click', () => {
+            text.style.color = generateRandomColor();
+        });
+
+        function generateRandomColor() {
+            let letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+
+            return color;
+        }
+
+        let input = document.getElementById('input');
+
+        input.addEventListener('keyup', (event) => {
+            if (event.keyCode === 13) {
+                text.innerHTML = input.value;
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>
