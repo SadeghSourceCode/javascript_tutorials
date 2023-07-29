@@ -23,7 +23,7 @@ Hello. Below you will find the steps for learning JavaScript in the field of web
 # Level 2: Intermediate JavaScript Concepts
 
 11. Event handling and responding to user interactions with JavaScript [Watch on Youtube](https://youtu.be/_zXGx-TLu30?si=7QCaaK9B_QkZlRiD)
-12. Working with strings and string manipulation in JavaScript
+12. Working with strings and string manipulation in JavaScript [Watch on Youtube](https://youtu.be/GdteFFsH2bs)
 13. Regular expressions in JavaScript for pattern matching
 14. Error handling and debugging techniques in JavaScript
 15. Scope and closures in JavaScript
