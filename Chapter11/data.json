@@ -1,0 +1,23 @@
+{
+    "name": "sadegh",
+    "email": "sadegh.source.code@gmail.com",
+    "address": {
+        "streetAddress": "1234 Main St.",
+        "city": "Anytown",
+        "state": "CA"
+    },
+    "jobPosition": [
+        {
+            "title": "1",
+            "componyName": "4"
+        },
+        {
+            "title": "1",
+            "componyName": "4"
+        },
+        {
+            "title": "1",
+            "componyName": "4"
+        }
+    ]
+}
